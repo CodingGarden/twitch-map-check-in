@@ -7,6 +7,7 @@ export default defineConfig({
     port: 9834,
   },
   plugins: [reactRefresh({
-    include: '**/*'
+    // enable hot reload
+    include: "**/*.tsx"
   })]
 })
