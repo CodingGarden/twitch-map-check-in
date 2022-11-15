@@ -4,6 +4,7 @@
 }
 
 body {
+  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -28,13 +29,24 @@ code {
   width: 100%;
   height: 100%;
   background-color: #1F1F1F;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .tooltip {
-  width: 200px;
+  width: 400px;
 }
 
 .icon {
   border-radius: 50%;
+}
+
+.leaflet-tooltip {
+  height: 150px;
+  white-space: normal;
+}
+
+.tooltip-content {
+  text-overflow: ellipsis;
+  height: 70%;
+  overflow: hidden;
 }
